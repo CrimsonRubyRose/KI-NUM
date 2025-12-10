@@ -3,23 +3,23 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 
-### Řešení Nelineárních Rovnic (Body 2. a 3.) ####
-# puleniIntervalu (Bisekce)       (Zaručená) 
+# Řešení Nelineárních Rovnic (Body 2. a 3.) ####
+### puleniIntervalu (Bisekce)       (Zaručená) 
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
 
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
-# NewtonHorner
+### NewtonHorner
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.
 Složitost: O(n)      stupeň polynomu = n 
 
 Princip:
 
-### Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
+# Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
 
-# GaussEliminationPivoting
+### GaussEliminationPivoting
 
 Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
 Složitost: O(N3)    N = Počet neznámých
@@ -27,15 +27,15 @@ Složitost: O(N3)    N = Počet neznámých
 Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k funkci f(x) a jejím průsečíkem s osou x se dostanete k novému, přesnějšímu odhadu kořene. Pro polynomy je to efektivní díky Hornerovu schématu, které počítá f(x) i f′(x) najednou.
 
 
-# Jacobi (vektorizovaná)
+### Jacobi (vektorizovaná)
 
 Výhody: Rychlá pro velké, řídké matice. Použijte, když je A diagonálně dominantní.
 Složitost: O(N2)   N = Počet neznámých
 
 Princip:
 
-### Interpolace (Body 6. a 7.) ### 
-# Newtonův interpolační polynom (Dělené diference)
+# Interpolace (Body 6. a 7.) ### 
+### Newtonův interpolační polynom (Dělené diference)
 Výhody:
 Složitost: O(N2)  kde N = počet bodů
 
@@ -43,9 +43,9 @@ Složitost: O(N2)  kde N = počet bodů
 # Metoda nejmenších čtverců (MNC)
 O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 
-### Integrace (Bod 10) ###
+# Integrace (Bod 10) ###
 
-# TrapezoidalRule
+### TrapezoidalRule
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
 Složitost: 
@@ -53,7 +53,7 @@ Složitost:
 Princip:
 
 
-# SimpsonsRule
+### SimpsonsRule
 
 Výhody: Nejvyšší přesnost (O(h**4)). Ideální, když potřebujete malé N.
 Složitost:
@@ -61,9 +61,9 @@ Složitost:
 Princip:
 
 
-### Numerické Derivování (Bod 11) ###
+# Numerické Derivování (Bod 11) ###
 
-# DerivativeOneSide
+### DerivativeOneSide
 
 Výhody: Nejjednodušší (O(h)). Použijte, když x je na hranici intervalu.
 Složitost:
@@ -71,7 +71,7 @@ Složitost:
 Princip:
 
 
-# DerivativeBothSide
+### DerivativeBothSide
 
 Výhody: Nejpřesnější (O(h2)). Použijte vždy, když to x dovolí.
 Složitost:
@@ -79,17 +79,17 @@ Složitost:
 Princip:
 
 
-### Řešení ODR (Body 12. a 13.) ###
+# Řešení ODR (Body 12. a 13.) ###
 
 
-# EulerMethod
+### EulerMethod
 Výhody: Nejjednodušší na implementaci. (Ale nepřesný)
 Složitost:
 
 Princip:
 
 
-# RK4
+### RK4
 Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h.
 Složitost:
 
