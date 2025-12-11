@@ -5,6 +5,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Řešení Nelineárních Rovnic (Body 2. a 3.) ####
 ### puleniIntervalu (Bisekce)       (Zaručená) 
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/4a92409e67637d203323badf1b6a96ee)
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
@@ -13,16 +14,16 @@ Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znamé
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
 ### NewtonHorner
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 Složitost: O(n)      stupeň polynomu = n 
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
 Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová!
 Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
 # Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
 
 ### GaussEliminationPivoting
-
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
 Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
 Složitost: O(N3)    N = Počet neznámých
 
@@ -30,7 +31,7 @@ Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k fun
 
 
 ### Jacobi (vektorizovaná)
-
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e)
 Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
 Složitost: O(N2)   N = Počet neznámých
 
@@ -39,6 +40,8 @@ Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme h
 
 # Interpolace (Body 6. a 7.) ### 
 ### Newtonův interpolační polynom (Dělené diference)
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5)  Pouze koeficienty
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) Pouze hodnota
 Výhody: Lepší než lagrange, rekuriznví. 
 Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 
@@ -47,6 +50,7 @@ Princip: Metoda která najde koeficienty polynomiálu který projde našimi body
 
 ### Aproximace (LSA) (Body 8. a 9.) ### 
 # Metoda nejmenších čtverců (MNC)
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
 Výhody:
 Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 
