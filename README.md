@@ -13,8 +13,8 @@ Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε
 Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku.
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
-### NewtonHorner
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
+### [NewtonHorner](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
+
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 Složitost: O(n)      stupeň polynomu = n 
 Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová!
@@ -22,16 +22,16 @@ Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá n
 
 # Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
 
-### GaussEliminationPivoting
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
+### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
+
 Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
 Složitost: O(N3)    N = Počet neznámých
 
 Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k funkci f(x) a jejím průsečíkem s osou x se dostanete k novému, přesnějšímu odhadu kořene. Pro polynomy je to efektivní díky Hornerovu schématu, které počítá f(x) i f′(x) najednou.
 
 
-### Jacobi (vektorizovaná)
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e)
+### [Jacobi (vektorizovaná)](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e)
+
 Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
 Složitost: O(N2)   N = Počet neznámých
 
@@ -48,9 +48,9 @@ Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je potřeba např.  (hornernewton)
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
-### Aproximace (LSA) (Body 8. a 9.) ### 
+### [Aproximace (LSA) (Body 8. a 9.) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
 # Metoda nejmenších čtverců (MNC)
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
+
 Výhody:
 Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 
