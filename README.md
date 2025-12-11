@@ -5,7 +5,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Řešení Nelineárních Rovnic (Body 2. a 3.) ####
 ### puleniIntervalu (Bisekce)       (Zaručená) 
-[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/4a92409e67637d203323badf1b6a96ee)
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
