@@ -42,12 +42,15 @@ Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme h
 Výhody: Lepší než lagrange, rekuriznví. 
 Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 
-
+Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je potřeba např.  (hornernewton)
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
 ### Aproximace (LSA) (Body 8. a 9.) ### 
 # Metoda nejmenších čtverců (MNC)
-O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
+Výhody:
+Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
+
+Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body zadané vektory x→ , y→ .
 
 # Integrace (Bod 10) ###
 
