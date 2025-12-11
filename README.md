@@ -15,7 +15,7 @@ Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Koř
 ### NewtonHorner
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 Složitost: O(n)      stupeň polynomu = n 
-
+[Zobrazit Kód](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
 Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová!
 Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
