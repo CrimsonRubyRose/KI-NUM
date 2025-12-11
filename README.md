@@ -39,7 +39,7 @@ Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychle
 Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
 # Interpolace (Body 6. a 7.) ### 
-### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5)  [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
+### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
 Výhody: Lepší než lagrange, rekuriznví. 
 Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 
