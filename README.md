@@ -9,13 +9,15 @@ Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
 
+Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku.
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
 ### NewtonHorner
-Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.
+Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 Složitost: O(n)      stupeň polynomu = n 
 
-Princip:
+Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová!
+Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
 # Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
 
@@ -29,15 +31,19 @@ Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k fun
 
 ### Jacobi (vektorizovaná)
 
-Výhody: Rychlá pro velké, řídké matice. Použijte, když je A diagonálně dominantní.
+Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
 Složitost: O(N2)   N = Počet neznámých
 
-Princip:
+Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychlejší než gauss. NEBO musí být diagonálně dominantní (Absolutní hodnota členů v diagonále je větší než součet členů v absolutních hodnotách v řádku). Pro diagonálě dominantní členy je často potřeba matici upravit změnou řádků!
+Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
 # Interpolace (Body 6. a 7.) ### 
 ### Newtonův interpolační polynom (Dělené diference)
-Výhody:
-Složitost: O(N2)  kde N = počet bodů
+Výhody: Lepší než lagrange, rekuriznví. 
+Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
+
+
+Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
 ### Aproximace (LSA) (Body 8. a 9.) ### 
 # Metoda nejmenších čtverců (MNC)
