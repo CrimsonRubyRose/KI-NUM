@@ -7,6 +7,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ### [puleniIntervalu (Bisekce)       (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
 
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
+
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
 
