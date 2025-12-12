@@ -4,7 +4,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 # Řešení Nelineárních Rovnic (Body 2. a 3.) ####
-![Alternativní Text Obrázku](KI-NUM/Obrázky/I. Řešení Nelineárních Rovnic.png)
+![Alternativní Text Obrázku](/Obrázky/ŘešeníNelineárníchRovnic.png)
 
 
 ### [puleniIntervalu (Bisekce)       (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
