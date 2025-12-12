@@ -10,6 +10,10 @@ Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, 
 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
+Metoda,Typické Zadání,Vstup do Vašeho Kódu
+Bisekce,"Rovnice: Řešte x3−x−1=0 na intervalu ⟨1,2⟩ s přesností ε=10−6.","Kód potřebuje funkci f(x) a interval [a,b]."
+Newtonova Metoda,Polynom: Najděte kořen P(x)=x4−2x2+3x−5 s počátečním odhadem x0​=1.,"Koeficienty a: např. a=(5,3,−2,0,1) (dle uspořádání ve Vašem kódu)."
+Vzorové maticové zadání (polynom):,"Najděte kořen, kde koeficienty a jsou vstupní vektor.","a=(1,−2,3,−5) (předpoklad: a1​ je konstanta, a4​ je koef. u x3)."
 
 Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku.
 
