@@ -12,15 +12,19 @@ Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε
 
 
 Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku.
+
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
 ### [NewtonHorner](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
 
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
+
 Složitost: O(n)      stupeň polynomu = n 
 
 Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová! 
+
 Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  
+
 Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
 # Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
@@ -28,6 +32,7 @@ Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesn�
 ### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
 
 Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
+
 Složitost: O(N3)    N = Počet neznámých
 
 Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k funkci f(x) a jejím průsečíkem s osou x se dostanete k novému, přesnějšímu odhadu kořene. Pro polynomy je to efektivní díky Hornerovu schématu, které počítá f(x) i f′(x) najednou.
@@ -36,17 +41,21 @@ Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k fun
 ### [Jacobi (vektorizovaná)](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e)
 
 Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
+
 Složitost: O(N2)   N = Počet neznámých
 
 Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychlejší než gauss. NEBO musí být diagonálně dominantní (Absolutní hodnota členů v diagonále je větší než součet členů v absolutních hodnotách v řádku). Pro diagonálě dominantní členy je často potřeba matici upravit změnou řádků!
+
 Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
 # Interpolace (Body 6. a 7.) ### 
 ### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
 Výhody: Lepší než lagrange, rekuriznví. 
+
 Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 
 Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je potřeba např.  (hornernewton)
+
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
 # Aproximace (Body 8. a 9.)
@@ -63,6 +72,7 @@ Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body z
 ### TrapezoidalRule
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
+
 Složitost: 
 
 Princip:
@@ -71,6 +81,7 @@ Princip:
 ### SimpsonsRule
 
 Výhody: Nejvyšší přesnost (O(h**4)). Ideální, když potřebujete malé N.
+
 Složitost:
 
 Princip:
@@ -81,6 +92,7 @@ Princip:
 ### DerivativeOneSide
 
 Výhody: Nejjednodušší (O(h)). Použijte, když x je na hranici intervalu.
+
 Složitost:
 
 Princip:
@@ -89,6 +101,7 @@ Princip:
 ### DerivativeBothSide
 
 Výhody: Nejpřesnější (O(h2)). Použijte vždy, když to x dovolí.
+
 Složitost:
 
 Princip:
@@ -99,6 +112,7 @@ Princip:
 
 ### EulerMethod
 Výhody: Nejjednodušší na implementaci. (Ale nepřesný)
+
 Složitost:
 
 Princip:
@@ -106,6 +120,7 @@ Princip:
 
 ### RK4
 Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h.
+
 Složitost:
 
 Princip:
