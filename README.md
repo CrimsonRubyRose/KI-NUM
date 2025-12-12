@@ -17,6 +17,7 @@ Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Koř
 
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 Složitost: O(n)      stupeň polynomu = n 
+
 Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová!
 Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
@@ -45,6 +46,7 @@ Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
 
 Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je potřeba např.  (hornernewton)
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
+
 # Aproximace (Body 8. a 9.)
 ### [ Metoda nejmenších čtverců (MNC) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
  
