@@ -69,7 +69,7 @@ Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body z
 
 # Integrace (Bod 10) ###
 
-### TrapezoidalRule
+### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c)
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
 
@@ -78,7 +78,7 @@ Složitost:
 Princip:
 
 
-### SimpsonsRule
+### [SimpsonsRule](https://gist.github.com/CrimsonRubyRose/b73434be120211574b8cf4990aeea030)
 
 Výhody: Nejvyšší přesnost (O(h**4)). Ideální, když potřebujete malé N.
 
@@ -89,8 +89,8 @@ Princip:
 
 # Numerické Derivování (Bod 11) ###
 
-### DerivativeOneSide
-
+### DerivativeJednosměrná
+[Dopředu+](https://gist.github.com/CrimsonRubyRose/363e9afbfd96ca83ce09b1155e1ec93c), [Dozadu-UNTESTED](https://gist.github.com/CrimsonRubyRose/ac1ec6f9fa6da4859d309c399394f070)
 Výhody: Nejjednodušší (O(h)). Použijte, když x je na hranici intervalu.
 
 Složitost:
@@ -98,7 +98,8 @@ Složitost:
 Princip:
 
 
-### DerivativeBothSide
+
+### [DerivativeBothSide](https://gist.github.com/CrimsonRubyRose/f36d5167514d63d681bcb3e2bd26b332)
 
 Výhody: Nejpřesnější (O(h2)). Použijte vždy, když to x dovolí.
 
@@ -111,6 +112,7 @@ Princip:
 
 
 ### EulerMethod
+[Dopředu](https://gist.github.com/CrimsonRubyRose/7ecdf48a63b37498bceaa531ba569371), [Oběstrany](https://gist.github.com/CrimsonRubyRose/f36d5167514d63d681bcb3e2bd26b332), [Dozadu](https://gist.github.com/CrimsonRubyRose/da470d40dd90ae52bcffcd526386eec6)
 Výhody: Nejjednodušší na implementaci. (Ale nepřesný)
 
 Složitost:
@@ -118,8 +120,8 @@ Složitost:
 Princip:
 
 
-### RK4
-Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h.
+### [RK4](https://gist.github.com/CrimsonRubyRose/0aaf8f6090fac076239a9c8c307657f5)
+Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h. Ale extrémně pomalá.
 
 Složitost:
 
