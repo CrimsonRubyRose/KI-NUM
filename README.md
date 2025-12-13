@@ -105,6 +105,18 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 | **Hledání Kořenů** | *f(x)=0, průsečík funkcí, nulový bod* | *Root finding / Intersection* | **Metoda půlení intervalu (Bisekce)**, **Newtonova metoda** |
 
 
+## Rychlé rozhodnutí
+
+| Otázka/Cíl v Zadání | Odpověď (Použijte Metodu) | Konkrétní Typy Metod |
+| :--- | :--- | :--- |
+| **Přesné proložení všemi body?** | **Interpolace** | Lagrangeův polynom, Newtonova interpolace |
+| **Nejlepší proložení / Trend (ne přesné)?** | **Regrese / Aproximace** | Metoda nejmenších čtverců (MNČ) |
+| **Soustava rovnic ($Ax = b$)?** | **Řešení Lineárních Soustav** | Gaussova eliminace, Gauss-Seidelova metoda |
+| **Integrál / Plocha pod křivkou?** | **Numerická Integrace (Kvadratura)** | Simpsonovo pravidlo, Lichoběžníkové pravidlo |
+| **Kořen / Průsečík / Nulový bod ($f(x)=0$)?** | **Hledání Kořenů** | Metoda půlení intervalu (Bisekce), Newtonova metoda |
+| **Odhad parametrů v nelineární formuli?** | **Nelineární Regrese** | Nelineární prokládání (NonlinearFit) |
+
+
 # Řešení Nelineárních Rovnic
 * [Zpět na Obsah](#Obsah)
 
