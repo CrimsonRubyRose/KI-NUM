@@ -10,8 +10,84 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * [Integrace](#Integrace)
 * [Numerické Derivování](#Numerické-Derivování)
 * [Řešení Obyčejných Diferenciálních Rovnic](#Řešení-Obyčejných-Diferenciálních-Rovnic)
+* [Tahák](#Tahák)
 
 
+# Tahák
+
+# 1. Numerická integrace
+
+### Jak zadání poznat
+* Znak integrálu (∫), oblast pod křivkou, odhadni a definuj integrál a analyzuj chybu oproti n
+
+### Příklady:
+* Spočítej ∫₁² (1/x) dx pomocí Newton-Cotes, a vyzuálně ukažte (plot)
+
+### Doporučené metody:
+* SimpsonRule
+* MidpointRule
+* TrapezoidalRule
+
+# 2. Řešení lineráních systémů (Ax = b)
+
+### Jak zadání poznat
+* Maticové Zadání Ax = b, "vyřeš pro x", přičemž prvky matice jsou definováný pomocí integrálů. 
+
+### Příklady:
+* “Vyřeš Ax = b kde A_ij = ∫₀¹ t^{i+j-2} dt.”
+
+### Doporučené metody:
+* GaussPivot
+* Jacobi
+* (Gauss,GaussSeidel)
+
+# 3. Interpolace
+
+### Jak jí poznat
+* "Najděte polynom skrz všechny datové body, "interpolujte", křivka musí projít skrz všechny body.”
+
+### Příklady:
+* “Vyrob polyon který přesně projde skrz daná data, vytvoř plot s výsledkem graficky.
+
+### Doporučené metody:
+* Lagrange
+* NewtonInterpolation
+* Vandermonde
+
+# 5. Nelineární aproximace, odhad parametrů
+
+### Jak zadání poznat
+* “aproximuj nelineární model”, například a(p) = am * bp / (1+bp), “odhadni parametry modelu.
+
+### Příklady:
+* “Fit a(p) model to data, estimate am and b.”
+
+### Doporučené metody:
+* NonLinearFit ???
+
+
+# 6. Hledání Kořene
+
+### Jak zadání poznat
+* “Najdi f(x)=0”, kde se přímky střetnou/protnou.“
+
+### Příklady:
+* ““Najdi x kdef(x) = 0”, nebo průnik dvou proložených přímek.
+
+### Doporučené metody:
+* Bisekce (půlení intervalu)
+* NewtonHorner ??
+
+## Rychlá tabulka
+
+| Numerický Úkol | Typická Fráze v Zadání (Angl.) | Doporučené Metody | Popis / Princip |
+| :--- | :--- | :--- | :--- |
+| **Integrace (Kvadratura)** | *Definite Integral $\int$, area under curve, estimate* | **Simpsonovo pravidlo**, Lichoběžníkové pravidlo | Aproximace plochy pod křivkou pomocí geometrických tvarů. |
+| **Lineární Soustavy** | *Linear System $Ax = b$, solve for $x$* | **Gauss (Eliminace)**, **Gauss-Seidel**, Jacobi | Nalezení vektoru neznámých $x$. |
+| **Interpolace** | *through all points, interpolate* | **Lagrangeův polynom**, **Newtonova interpolace** | Nalezení polynomu, který **prochází všemi** zadanými body. |
+| **Aproximace / Trend** | *Best fit, regression, trend* | **Metoda nejmenších čtverců (LSS)** | Hledání funkce, která nejlépe **aproximuje** data (minimalizace chyby). |
+| **Nelineární Fitování** | *Model with parameters, $a(p)$, etc.* | **Nelineární Regrese (NonlinearFit)** | Iterativní odhad parametrů nelineárního modelu. |
+| **Hledání Kořenů / Průsečíků** | *$f(x)=0$, intersection, crosses* | **Metoda půlení intervalu (Bisection)**, **Newtonova metoda** | Nalezení $x$, pro které je funkce nulová. |
 
 
 # Řešení Nelineárních Rovnic
