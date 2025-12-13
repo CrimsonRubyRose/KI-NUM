@@ -16,6 +16,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Řešení Nelineárních Rovnic
 * [Zpět na Obsah](#Obsah)
+* 
 ![Alternativní Text Obrázku](/Obrázky/ŘešeníNelineárníchRovnic.png)
 
 
