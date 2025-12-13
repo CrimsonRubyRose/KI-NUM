@@ -15,11 +15,11 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 # Řešení Nelineárních Rovnic
+* [Zpět na Obsah](#Obsah)
 ![Alternativní Text Obrázku](/Obrázky/ŘešeníNelineárníchRovnic.png)
 
 
 ### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
-
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
@@ -41,7 +41,7 @@ Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá n
 Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
 # Řešení Soustav Lineárních Rovnic
-
+* [Zpět na Obsah](#Obsah)
 ### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
 
 Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
@@ -62,6 +62,7 @@ Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychle
 Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
 # Interpolace
+* [Zpět na Obsah](#Obsah)
 ### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
 Výhody: Lepší než lagrange, rekuriznví. 
 
@@ -72,6 +73,7 @@ Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je pot
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
 # Aproximace
+* [Zpět na Obsah](#Obsah)
 ### [ Metoda nejmenších čtverců (MNC) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
  
 
@@ -81,7 +83,7 @@ Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body zadané vektory x→ , y→ .
 
 # Integrace
-
+* [Zpět na Obsah](#Obsah)
 ### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c)
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
@@ -101,7 +103,7 @@ Princip:
 
 
 # Numerické Derivování
-
+* [Zpět na Obsah](#Obsah)
 ### DerivativeJednosměrná [Dopředu+](https://gist.github.com/CrimsonRubyRose/363e9afbfd96ca83ce09b1155e1ec93c), [Dozadu-UNTESTED](https://gist.github.com/CrimsonRubyRose/ac1ec6f9fa6da4859d309c399394f070)
 Výhody: Nejjednodušší (O(h)). Použijte, když x je na hranici intervalu.
 
@@ -121,7 +123,7 @@ Princip:
 
 
 # Řešení Obyčejných Diferenciálních Rovnic
-
+* [Zpět na Obsah](#Obsah)
 
 ### EulerMethod [Dopředu](https://gist.github.com/CrimsonRubyRose/7ecdf48a63b37498bceaa531ba569371), [Oběstrany](https://gist.github.com/CrimsonRubyRose/f36d5167514d63d681bcb3e2bd26b332), [Dozadu](https://gist.github.com/CrimsonRubyRose/da470d40dd90ae52bcffcd526386eec6)
 Výhody: Nejjednodušší na implementaci. (Ale nepřesný)
