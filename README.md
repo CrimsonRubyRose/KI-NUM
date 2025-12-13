@@ -96,12 +96,12 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 | Numerický Úkol | Typická Fráze v Zadání (CZ) | Anglický Ekvivalent | Doporučené Metody |
 | :--- | :--- | :--- | :--- |
-| **Numerická Kvadratura** | *Určitý integrál $\int$, plocha pod křivkou, odhadněte* | *Numerical Integration (Quadrature)* | **Simpsonovo pravidlo**, Lichoběžníkové pravidlo |
+| **Numerická Kvadratura** | *Určitý integrál $\int$, plocha pod křivkou, odhadněte* | *Numerical Integration* | **Simpsonovo pravidlo**, Lichoběžníkové pravidlo |
 | **Lineární Soustavy** | *Lineární soustava $Ax = b$, řešte pro $x$* | *Linear System, $Ax=b$ solve* | **Gaussova eliminace**, **Gauss-Seidelova metoda**, Jacobiho metoda |
-| **Interpolace** | *Proložení všemi body, interpolujte* | *Interpolation* | **Lagrangeův polynom**, **Newtonova interpolace** |
-| **Aproximace / Regrese** | *Nejlepší proložení (fit), trend* | *Least Squares (LSS), Regression* | **Metoda nejmenších čtverců (MNČ)** |
+| **Interpolace** | *Proložení všemi body, interpolujte* | *Interpolation* | **Lagrangeův polynom**, **Newtonova interpolační formule** |
+| **Aproximace (Regrese)** | *Nejlepší proložení (fit), trend* | *Least Squares (LSS)* | **Metoda nejmenších čtverců (MNČ)** |
 | **Nelineární Regrese** | *Model s parametry, $a(p)$, odhad parametrů* | *Nonlinear Fit / Parameter Estimation* | **Nelineární prokládání** (iterativní) |
-| **Hledání Kořenů** | *$f(x)=0$, průsečík funkcí* | *Root/Intersection finding* | **Metoda půlení intervalu (Bisekce)**, **Newtonova metoda** |
+| **Hledání Kořenů** | *$f(x)=0$, průsečík funkcí, nulový bod* | *Root finding / Intersection* | **Metoda půlení intervalu (Bisekce)**, **Newtonova metoda** |
 
 
 # Řešení Nelineárních Rovnic
