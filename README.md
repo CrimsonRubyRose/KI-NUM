@@ -11,7 +11,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * [Numerické Derivování](#Numerické-Derivování)
 * [Řešení Obyčejných Diferenciálních Rovnic](#Řešení-Obyčejných-Diferenciálních-Rovnic)
 * [Tahák](#Tahák)
-
+*[Rychlé informace](#Rychlá-tabulka)
 
 # Tahák
 
@@ -93,7 +93,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * NewtonHorner ??
 
 ## Rychlá tabulka
-
+* [Zpět na Obsah](#Obsah)
 
 | Numerický Úkol | Typická Fráze v Zadání (CZ) | Anglický Ekvivalent | Doporučené Metody |
 | :--- | :--- | :--- | :--- |
