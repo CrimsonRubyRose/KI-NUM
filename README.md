@@ -15,7 +15,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Tahák
 
-# 1. Numerická integrace
+## 1. Numerická integrace
 
 ### Jak zadání poznat
 * Znak integrálu (∫), oblast pod křivkou, odhadni a definuj integrál a analyzuj chybu oproti n
@@ -28,7 +28,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * MidpointRule
 * TrapezoidalRule
 
-# 2. Řešení lineráních systémů (Ax = b)
+## 2. Řešení lineráních systémů (Ax = b)
 
 ### Jak zadání poznat
 * Maticové Zadání Ax = b, "vyřeš pro x", přičemž prvky matice jsou definováný pomocí integrálů. 
@@ -41,7 +41,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * Jacobi
 * (Gauss,GaussSeidel)
 
-# 3. Interpolace
+## 3. Interpolace
 
 ### Jak jí poznat
 * "Najděte polynom skrz všechny datové body, "interpolujte", křivka musí projít skrz všechny body.”
@@ -54,7 +54,21 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * NewtonInterpolation
 * Vandermonde
 
-# 5. Nelineární aproximace, odhad parametrů
+## 4. Aproximace/ Regrese/ Nejméně čtverců
+
+### Jak jí poznat
+* "Best fit”, “Aproximuj”, “Regresse”, “trend”, “minimalizuj sumu squared chyb”, noisy (šum) data.
+
+### Příklady:
+* “Fit a polynomial of degree 2 to experimental data.”
+
+### Doporučené metody:
+* LSA (Least Squares Approximation)
+* LSS (Least Squares Solution)
+
+
+
+## 5. Nelineární aproximace, odhad parametrů
 
 ### Jak zadání poznat
 * “aproximuj nelineární model”, například a(p) = am * bp / (1+bp), “odhadni parametry modelu.
@@ -66,7 +80,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * NonLinearFit ???
 
 
-# 6. Hledání Kořene
+## 6. Hledání Kořene
 
 ### Jak zadání poznat
 * “Najdi f(x)=0”, kde se přímky střetnou/protnou.“
@@ -80,14 +94,14 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 ## Rychlá tabulka
 
-| Numerický Úkol | Typická Fráze v Zadání (Angl.) | Doporučené Metody | Popis / Princip |
+| Numerický Úkol | Typická Fráze v Zadání (CZ) | Anglický Ekvivalent | Doporučené Metody |
 | :--- | :--- | :--- | :--- |
-| **Integrace (Kvadratura)** | *Definite Integral $\int$, area under curve, estimate* | **Simpsonovo pravidlo**, Lichoběžníkové pravidlo | Aproximace plochy pod křivkou pomocí geometrických tvarů. |
-| **Lineární Soustavy** | *Linear System $Ax = b$, solve for $x$* | **Gauss (Eliminace)**, **Gauss-Seidel**, Jacobi | Nalezení vektoru neznámých $x$. |
-| **Interpolace** | *through all points, interpolate* | **Lagrangeův polynom**, **Newtonova interpolace** | Nalezení polynomu, který **prochází všemi** zadanými body. |
-| **Aproximace / Trend** | *Best fit, regression, trend* | **Metoda nejmenších čtverců (LSS)** | Hledání funkce, která nejlépe **aproximuje** data (minimalizace chyby). |
-| **Nelineární Fitování** | *Model with parameters, $a(p)$, etc.* | **Nelineární Regrese (NonlinearFit)** | Iterativní odhad parametrů nelineárního modelu. |
-| **Hledání Kořenů / Průsečíků** | *$f(x)=0$, intersection, crosses* | **Metoda půlení intervalu (Bisection)**, **Newtonova metoda** | Nalezení $x$, pro které je funkce nulová. |
+| **Numerická Kvadratura** | *Určitý integrál $\int$, plocha pod křivkou, odhadněte* | *Numerical Integration (Quadrature)* | **Simpsonovo pravidlo**, Lichoběžníkové pravidlo |
+| **Lineární Soustavy** | *Lineární soustava $Ax = b$, řešte pro $x$* | *Linear System, $Ax=b$ solve* | **Gaussova eliminace**, **Gauss-Seidelova metoda**, Jacobiho metoda |
+| **Interpolace** | *Proložení všemi body, interpolujte* | *Interpolation* | **Lagrangeův polynom**, **Newtonova interpolace** |
+| **Aproximace / Regrese** | *Nejlepší proložení (fit), trend* | *Least Squares (LSS), Regression* | **Metoda nejmenších čtverců (MNČ)** |
+| **Nelineární Regrese** | *Model s parametry, $a(p)$, odhad parametrů* | *Nonlinear Fit / Parameter Estimation* | **Nelineární prokládání** (iterativní) |
+| **Hledání Kořenů** | *$f(x)=0$, průsečík funkcí* | *Root/Intersection finding* | **Metoda půlení intervalu (Bisekce)**, **Newtonova metoda** |
 
 
 # Řešení Nelineárních Rovnic
