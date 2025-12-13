@@ -2,12 +2,23 @@
 Repozitář vytvořený pro zvládnutí KI/NUM
 
 
+# Obsah
+* [Řešení Nelineárních Rovnic](#Řešení-Nelineárních-Rovnic-Body)
+* [Řešení Soustav Lineárních Rovnic](#Řešení-Soustav-Lineárních-Rovnic)
+* [Interpolace](#Interpolace)
+* [Aproximace](#Aproximace)
+* [Integrace](#Integrace)
+* [Numerické Derivování](#Numerické-Derivování)
+* [Řešení Obyčejných Diferenciálních Rovnic](#Řešení-Obyčejných-Diferenciálních-Rovnic)
 
-# Řešení Nelineárních Rovnic (Body 2. a 3.) ####
+
+
+
+# Řešení Nelineárních Rovnic
 ![Alternativní Text Obrázku](/Obrázky/ŘešeníNelineárníchRovnic.png)
 
 
-### [puleniIntervalu (Bisekce)       (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
+### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
 
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 
@@ -17,7 +28,7 @@ Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znamé
 
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
-### [NewtonHorner](https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
+### [NewtonHorner] (Hledání Kořenů) (https://gist.github.com/CrimsonRubyRose/3fdb6b3943c0d4548f07a09d185e4adf)
 
 Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je počáteční odhad dobrý.  Zjednodušuje velké polynomy při výpočtu.
 
@@ -29,7 +40,7 @@ Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá n
 
 Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesnější, ale pomalejší)
 
-# Řešení Soustav Lineárních Rovnic (Body 4. a 5.) ###
+# Řešení Soustav Lineárních Rovnic
 
 ### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
 
@@ -50,7 +61,7 @@ Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychle
 
 Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
-# Interpolace (Body 6. a 7.) ### 
+# Interpolace
 ### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
 Výhody: Lepší než lagrange, rekuriznví. 
 
@@ -60,7 +71,7 @@ Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je pot
 
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
-# Aproximace (Body 8. a 9.)
+# Aproximace
 ### [ Metoda nejmenších čtverců (MNC) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
  
 
@@ -69,7 +80,7 @@ Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 
 Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body zadané vektory x→ , y→ .
 
-# Integrace (Bod 10) ###
+# Integrace
 
 ### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c)
 
@@ -89,7 +100,7 @@ Složitost:
 Princip:
 
 
-# Numerické Derivování (Bod 11) ###
+# Numerické Derivování
 
 ### DerivativeJednosměrná [Dopředu+](https://gist.github.com/CrimsonRubyRose/363e9afbfd96ca83ce09b1155e1ec93c), [Dozadu-UNTESTED](https://gist.github.com/CrimsonRubyRose/ac1ec6f9fa6da4859d309c399394f070)
 Výhody: Nejjednodušší (O(h)). Použijte, když x je na hranici intervalu.
@@ -109,7 +120,7 @@ Složitost:
 Princip:
 
 
-# Řešení ODR (Body 12. a 13.) ###
+# Řešení Obyčejných Diferenciálních Rovnic
 
 
 ### EulerMethod [Dopředu](https://gist.github.com/CrimsonRubyRose/7ecdf48a63b37498bceaa531ba569371), [Oběstrany](https://gist.github.com/CrimsonRubyRose/f36d5167514d63d681bcb3e2bd26b332), [Dozadu](https://gist.github.com/CrimsonRubyRose/da470d40dd90ae52bcffcd526386eec6)
