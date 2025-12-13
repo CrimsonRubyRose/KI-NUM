@@ -3,7 +3,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 # Obsah
-* [Řešení Nelineárních Rovnic](#Řešení-Nelineárních-Rovnic-Body)
+* [Řešení Nelineárních Rovnic](#Řešení-Nelineárních-Rovnic)
 * [Řešení Soustav Lineárních Rovnic](#Řešení-Soustav-Lineárních-Rovnic)
 * [Interpolace](#Interpolace)
 * [Aproximace](#Aproximace)
