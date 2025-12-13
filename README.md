@@ -11,7 +11,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * [Numerické Derivování](#Numerické-Derivování)
 * [Řešení Obyčejných Diferenciálních Rovnic](#Řešení-Obyčejných-Diferenciálních-Rovnic)
 * [Tahák](#Tahák)
-*[Rychlé informace](#Rychlá-tabulka)
+* [Rychlé informace](#Rychlá-tabulka)
 
 # Tahák
 
