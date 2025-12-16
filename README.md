@@ -210,13 +210,17 @@ Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body z
 
 # Integrace
 * [Zpět na Obsah](#Obsah)
-### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c)
+### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c) , [TrapezoidalDiskrétní](https://gist.github.com/CrimsonRubyRose/b73434be120211574b8cf4990aeea030) Specificky pro diskrétní výstup RK4
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
 
 Složitost: 
 
 Princip:
+
+
+
+
 
 
 ### [SimpsonsRule](https://gist.github.com/CrimsonRubyRose/b73434be120211574b8cf4990aeea030)
