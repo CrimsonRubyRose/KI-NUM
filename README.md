@@ -19,6 +19,17 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20.png)
 
 
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-01-24.png)
+
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16.png)
+
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22.png)
+
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16.png)
+
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03.png)
+
+
 # Tahák
 
 ## 1. Numerická integrace
