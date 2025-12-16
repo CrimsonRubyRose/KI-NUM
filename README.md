@@ -13,6 +13,10 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * [Tahák](#Tahák)
 * [Rychlé informace](#Rychlá-tabulka)
 
+# Předchozí zápočty a řešení
+
+
+
 # Tahák
 
 ## 1. Numerická integrace
