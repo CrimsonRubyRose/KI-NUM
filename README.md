@@ -33,7 +33,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 # Tahák
 
 ## 1. Numerická integrace
-
+* [Zpět na Obsah](#Obsah)
 ### Jak zadání poznat
 * Znak integrálu (∫), oblast pod křivkou, odhadni a definuj integrál a analyzuj chybu oproti n
 
@@ -46,7 +46,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * TrapezoidalRule
 
 ## 2. Řešení lineráních systémů (Ax = b)
-
+* [Zpět na Obsah](#Obsah)
 ### Jak zadání poznat
 * Maticové Zadání Ax = b, "vyřeš pro x", přičemž prvky matice jsou definováný pomocí integrálů. 
 
@@ -59,7 +59,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * (Gauss,GaussSeidel)
 
 ## 3. Interpolace
-
+* [Zpět na Obsah](#Obsah)
 ### Jak jí poznat
 * "Najděte polynom skrz všechny datové body, "interpolujte", křivka musí projít skrz všechny body.”
 
@@ -72,7 +72,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * Vandermonde
 
 ## 4. Aproximace/ Regrese/ Nejméně čtverců
-
+* [Zpět na Obsah](#Obsah)
 ### Jak jí poznat
 * "Best fit”, “Aproximuj”, “Regresse”, “trend”, “minimalizuj sumu squared chyb”, noisy (šum) data.
 
@@ -86,7 +86,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 ## 5. Nelineární aproximace, odhad parametrů
-
+* [Zpět na Obsah](#Obsah)
 ### Jak zadání poznat
 * “aproximuj nelineární model”, například a(p) = am * bp / (1+bp), “odhadni parametry modelu.
 
@@ -98,7 +98,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 ## 6. Hledání Kořene
-
+* [Zpět na Obsah](#Obsah)
 ### Jak zadání poznat
 * “Najdi f(x)=0”, kde se přímky střetnou/protnou.“
 
