@@ -114,6 +114,8 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 * Bisekce (půlení intervalu)
 * NewtonHorner ??
 
+Nové: Diskrétní trapezoidal, solve_ode 
+
 ## Rychlá tabulka
 * [Zpět na Obsah](#Obsah)
 
@@ -264,8 +266,12 @@ Princip:
 
 
 ### [RK4](https://gist.github.com/CrimsonRubyRose/0aaf8f6090fac076239a9c8c307657f5)
-Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h. Ale extrémně pomalá.
+Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h. Ale extrémně pomalá.   Pro interval v zadání potřebuje solve_ode
 
 Složitost:
 
 Princip:
+
+
+### [solve_ode](https://gist.github.com/CrimsonRubyRose/a0d45e2840169f0386c1215d28cb1c7e)
+Princip: Volá ostatní funkce jako např. RK4 a je využita když je v zadání ODR definován interval.
