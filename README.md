@@ -16,17 +16,22 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 # Předchozí zápočty a řešení
 
 
+## Příklad1:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20.png)
 
-
+## Příklad2:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-01-24.png)
 
+## Příklad3:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16.png)
 
+## Příklad4:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22.png)
 
+## Příklad5:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16.png)
 
+## Příklad6:
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03.png)
 
 
