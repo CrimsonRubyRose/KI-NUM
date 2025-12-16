@@ -16,6 +16,8 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 # Předchozí zápočty a řešení
 
 
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20.png)
+
 
 # Tahák
 
