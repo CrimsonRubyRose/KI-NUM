@@ -147,7 +147,7 @@ Nové: Diskrétní trapezoidal, solve_ode
 ![Alternativní Text Obrázku](/Obrázky/ŘešeníNelineárníchRovnic.png)
 
 
-### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be)
+### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be), ### [PomocnáFunkceProBisekci(Nalezení Intervalu)](https://gist.github.com/CrimsonRubyRose/25e35f91e915159bb49ff3c650bf870c)
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
