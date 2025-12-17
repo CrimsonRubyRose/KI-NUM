@@ -273,5 +273,10 @@ Složitost:
 Princip:
 
 
+# Pomocné funkce
+
+
+
+
 ### [solve_ode](https://gist.github.com/CrimsonRubyRose/a0d45e2840169f0386c1215d28cb1c7e)
 Princip: Volá ostatní funkce jako např. RK4 a je využita když je v zadání ODR definován interval.
