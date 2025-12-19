@@ -177,15 +177,15 @@ Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
 Složitost: O(N3)    N = Počet neznámých
 
 Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k funkci f(x) a jejím průsečíkem s osou x se dostanete k novému, přesnějšímu odhadu kořene. Pro polynomy je to efektivní díky Hornerovu schématu, které počítá f(x) i f′(x) najednou.
+### [GaussSeidel](https://gist.github.com/CrimsonRubyRose/6d206b26a6f23a4668de373c04a94e2c) , Nepotřebuje pomocnou matici
 
-
-### [Jacobi (vektorizovaná)](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e)
+### [Jacobi (vektorizovaná)](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e) , Potřebná pomocná matice
 
 Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
 
 Složitost: O(N2)   N = Počet neznámých
 
-Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychlejší než gauss. NEBO musí být diagonálně dominantní (Absolutní hodnota členů v diagonále je větší než součet členů v absolutních hodnotách v řádku). Pro diagonálě dominantní členy je často potřeba matici upravit změnou řádků!
+Podmínky: Matice by měla být přes 90% z nul. Aby tento algoritmus byl rychlejší než gauss. NEBO musí být diagonálně dominantní (Absolutní hodnota členů v diagonále je větší než součet členů v absolutních hodnotách v řádku). Pro diagonálě dominantní členy je často potřeba matici upravit změnou řádků!  JE POTŘEBNA POMOCNÁ MATICE!!!!!!
 
 Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme hodnoty x které nám vyšli v předchozí iteraci a tak pokračujem dokud se nepřiblížíme k požadovaným hodnotám tak že nastavená Xmin a Xmax odchylka je splněna.
 
