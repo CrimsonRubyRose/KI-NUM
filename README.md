@@ -28,7 +28,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ## [Příklad4:](https://gist.github.com/CrimsonRubyRose/10cf9411b5dcc264e8c5b2116b8fe0c4)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22.png)
 
-## [Příklad5:]()
+## [Příklad5:](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16.png)
 
 ## [Příklad6:]()
