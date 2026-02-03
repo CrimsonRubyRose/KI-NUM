@@ -17,22 +17,22 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 
 ## [Příklad1 24.12.20](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20Clean.png)
 
 ## [Příklad2:](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-01-24.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-01-24Clean.png)
 
 ## [Příklad3 25.01.24](https://gist.github.com/CrimsonRubyRose/cb4f47ed0028f5c39ceeb85f2035c8eb)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16Clean.png)
 
 ## [Příklad4:](https://gist.github.com/CrimsonRubyRose/10cf9411b5dcc264e8c5b2116b8fe0c4)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22Clean.png)
 
 ## [Příklad5:](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
 
 ## [Příklad6:](https://gist.github.com/CrimsonRubyRose/17a1f0ba3a7d43a86ed462520c875d19)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
 
 ## [Příklad7:](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
 ![Alternativní Text Obrázku](/Obrázky/zZápočetNUM-26-01-23.png)
