@@ -35,7 +35,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
 
 ## [Příklad7:](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
-![Alternativní Text Obrázku](/Obrázky/zZápočetNUM-26-01-23.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-26-01-23Clean.png)
 # Tahák
 
 ## 1. Numerická integrace
