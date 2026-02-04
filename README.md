@@ -163,7 +163,7 @@ Výhody: Nejrychlejší (kvadratická konvergence O(h**2)). Použijte, pokud je 
 
 Složitost: O(n)      stupeň polynomu = n 
 
-Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová! 
+Podmínky: Počáteční odhad se musí blížit hledanému kořenu a derivace nesmí být nikdy nulová! Polynom musí být zadaný od nejmenší mocniny po největší např 5+x**2-2x**4 v rku c(5,1,0,-2)
 
 Princip: Vkládáme hodnoty. Dokoud není výsledek 0. Což je kořen. Každá následující hodnota je vypočítaná jako : hodnota x - P(x)/Derivace P(x) = Nová hodnota x.  
 
