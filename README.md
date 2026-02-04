@@ -15,6 +15,8 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Předchozí zápočty a řešení
 
+## [Příklad 24.01.31]([https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676](https://gist.github.com/CrimsonRubyRose/7001ace7021b303e8d3572d20379532b))
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-01-31Clean.png)
 
 ## [Příklad1 24.12.20](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20Clean.png)
