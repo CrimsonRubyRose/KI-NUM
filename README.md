@@ -153,7 +153,7 @@ Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, 
 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
 
-Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku.
+Podmínky: Funkce musí být spojitá. Hodnoty intervalu musí mít jiné znaménko na začátku. (Neboli nesmí to být polygon na sudou mocninu). Pokud spojitá není použít newtonhorner.
 
 Princip: Metoda opakovaně půlí interval, ve kterém se nachází kořen. Kořen je vždy v té polovině, kde má funkce stále opačná znaménka na koncích.
 
