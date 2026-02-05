@@ -203,7 +203,7 @@ Nevýhoda: Interpolace vrátí pouze koeficienty. Pro jejich zpracování je pot
 
 Princip: Metoda která najde koeficienty polynomiálu který projde našimi body. Spočítáme c0-cn.  c0 je zadaný první bod. c1 je směrnice (rozdíl sklonu c0,c1). c2 až cn měří jak moc se sklon změnil mezi nima a předchozím bodem.     Výsledek: Polynom=c0​+c1​⋅(člen 1)+c2​⋅(člen 2)+...
 
-# Aproximace
+# Aproximace/ Regrese/ Nejméně čtverců
 * [Zpět na Obsah](#Obsah)
 ### [ Metoda nejmenších čtverců (MNC) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
  
