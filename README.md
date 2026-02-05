@@ -302,4 +302,8 @@ Princip:
 
 
 ### [solve_ode](https://gist.github.com/CrimsonRubyRose/a0d45e2840169f0386c1215d28cb1c7e)
-Princip: Volá ostatní funkce jako např. RK4 a je využita když je v zadání ODR definován interval.
+Princip: Volá ostatní funkce jako např. RK4 a je využita když je v zadání ODR definován interval.  (Asi nepoužitá přidala jsem jí dlouho zpátky budu muset vše přepsat)
+
+
+### [Derivace](https://gist.github.com/CrimsonRubyRose/1dcc147f796071533efe0eb0434fc498)
+Princip: Jednoduchá derivace. Funguje pokud jde funkce "nakreslit jedním tahem"  Funguje i na první i druhou derivaci. Následně můžeme použít např v RK4.
