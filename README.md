@@ -15,41 +15,52 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 
 # Předchozí zápočty a řešení
 
-
-## [Příklad1 24.01.31](https://gist.github.com/CrimsonRubyRose/7001ace7021b303e8d3572d20379532b)
+## [Příklad1 23.01.26](https://gist.github.com/CrimsonRubyRose/6f3bd089ebb45caf53afadddf537b643)
 ![Alternativní Text Obrázku]()
 
-## [Příklad2 24.02.16](https://gist.github.com/CrimsonRubyRose/cb4f47ed0028f5c39ceeb85f2035c8eb)
+## [Příklad2 23.02.09](https://gist.github.com/CrimsonRubyRose/4be996a62e07e7c49fdc377a70390370)
+![Alternativní Text Obrázku]()
+
+## [Příklad3 24.01.31](https://gist.github.com/CrimsonRubyRose/7001ace7021b303e8d3572d20379532b)
+![Alternativní Text Obrázku]()
+
+## [Příklad4 24.02.16](https://gist.github.com/CrimsonRubyRose/cb4f47ed0028f5c39ceeb85f2035c8eb)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16Clean.png)
 
-## [Příklad3 24.02.18](https://gist.github.com/CrimsonRubyRose/a34e12381d9e95d9d4ccade490021c3a)
+## [Příklad5 24.02.18](https://gist.github.com/CrimsonRubyRose/a34e12381d9e95d9d4ccade490021c3a)
 ![Alternativní Text Obrázku]()
 
-## [Příklad4 24.03.22](https://gist.github.com/CrimsonRubyRose/10cf9411b5dcc264e8c5b2116b8fe0c4)
+## [Příklad6 24.03.22](https://gist.github.com/CrimsonRubyRose/10cf9411b5dcc264e8c5b2116b8fe0c4)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22Clean.png)
 
-## [Příklad5 24.04.14](https://gist.github.com/CrimsonRubyRose/7c9f90cc739ed84fb9b307035c266a6f)
+## [Příklad7 24.04.14](https://gist.github.com/CrimsonRubyRose/7c9f90cc739ed84fb9b307035c266a6f)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
 
-## [Příklad6 24.12.20](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
+## [Příklad8 24.12.20](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-12-20Clean.png)
 
 ## [Příklad7 25.01.03](https://gist.github.com/CrimsonRubyRose/e4d66bf1ecfc27623645d99b707262d9)
 ![Alternativní Text Obrázku]()
 
-## [Příklad8 25.01.24](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
+## [Příklad9 25.01.24](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-01-24Clean.png)
 
-## [Příklad9 25.04.16](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
-
-## [Příklad10 25.07.03](https://gist.github.com/CrimsonRubyRose/17a1f0ba3a7d43a86ed462520c875d19)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
-
-## [Příklad11:25.12.22](https://gist.github.com/CrimsonRubyRose/d88c423da119c6f7a1a94e508d169e69)
+## [Příklad10 25.01.31](https://gist.github.com/CrimsonRubyRose/b0c757435af1b82e5c2d8df84a175a73)
 ![Alternativní Text Obrázku]()
 
-## [Příklad12 26.01.23](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
+## [Příklad11 25.02.07](https://gist.github.com/CrimsonRubyRose/3f4fb36b76fdf659eb26cde2ce796c1f)
+![Alternativní Text Obrázku]()
+
+## [Příklad12 25.04.16](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
+
+## [Příklad13 25.07.03](https://gist.github.com/CrimsonRubyRose/17a1f0ba3a7d43a86ed462520c875d19)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
+
+## [Příklad14:25.12.22](https://gist.github.com/CrimsonRubyRose/d88c423da119c6f7a1a94e508d169e69)
+![Alternativní Text Obrázku]()
+
+## [Příklad15 26.01.23](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-26-01-23Clean.png)
 
 
