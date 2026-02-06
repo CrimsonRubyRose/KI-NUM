@@ -16,7 +16,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 # Předchozí zápočty a řešení
 
 ## [Příklad1 23-01-26 EulerIIuprostred, GaussEliminationPivoting, MNCforPolynomialsBetter ](https://gist.github.com/CrimsonRubyRose/6f3bd089ebb45caf53afadddf537b643)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16Clean.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-23-01-16Clean.png)
 
 ## [Příklad2 23-02-09 Bisection](https://gist.github.com/CrimsonRubyRose/4be996a62e07e7c49fdc377a70390370)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-23-02-09Clean.png)
@@ -34,7 +34,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22Clean.png)
 
 ## [Příklad7 24-04-14 RK4](https://gist.github.com/CrimsonRubyRose/7c9f90cc739ed84fb9b307035c266a6f)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-04-14Clean.png)
 
 ## [Příklad8 24-12-20 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-12-20Clean.png)
