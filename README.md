@@ -39,28 +39,28 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ## [Příklad8 24-12-20 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-12-20Clean.png)
 
-## [Příklad7 25-01-03 GaussEliminationPivoting, MNCforPolynomialsBetter, NewtonPolynomialCoefs , NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/e4d66bf1ecfc27623645d99b707262d9)
+## [Příklad9 25-01-03 GaussEliminationPivoting, MNCforPolynomialsBetter, NewtonPolynomialCoefs , NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/e4d66bf1ecfc27623645d99b707262d9)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-01-03Clean.png)
 
-## [Příklad9 25-01-24 trapezoidalRule, GausovaEliminaceSPivotaci](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
+## [Příklad10 25-01-24 trapezoidalRule, GausovaEliminaceSPivotaci](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-01-24Clean.png)
 
-## [Příklad10 25-01-31 Bisection, GaussEliminationPivoting, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/b0c757435af1b82e5c2d8df84a175a73)
+## [Příklad11 25-01-31 Bisection, GaussEliminationPivoting, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/b0c757435af1b82e5c2d8df84a175a73)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-01-31Clean.png)
 
-## [Příklad11 25-02-07 RK4](https://gist.github.com/CrimsonRubyRose/3f4fb36b76fdf659eb26cde2ce796c1f)
+## [Příklad12 25-02-07 RK4](https://gist.github.com/CrimsonRubyRose/3f4fb36b76fdf659eb26cde2ce796c1f)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-02-07Clean.png)
 
-## [Příklad12 25-04-16 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
+## [Příklad13 25-04-16 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/d23d4ec3ae63503fd43935b87ccbc101)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-04-16Clean.png)
 
-## [Příklad13 25-07-03 GausovaEliminaceSPivotaci, NewtonPolynomialCoefs, NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/17a1f0ba3a7d43a86ed462520c875d19)
+## [Příklad14 25-07-03 GausovaEliminaceSPivotaci, NewtonPolynomialCoefs, NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/17a1f0ba3a7d43a86ed462520c875d19)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
 
-## [Příklad14:25-12-22 RK4, GausovaEliminaceSPivotaci, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/d88c423da119c6f7a1a94e508d169e69)
+## [Příklad15:25-12-22 RK4, GausovaEliminaceSPivotaci, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/d88c423da119c6f7a1a94e508d169e69)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-12-22Clean.png))
 
-## [Příklad15 26-01-23 Bisection, FindInitialInterval](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
+## [Příklad16 26-01-23 Bisection, FindInitialInterval](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-26-01-23Clean.png)
 
 
