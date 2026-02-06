@@ -182,6 +182,8 @@ Nové: Diskrétní trapezoidal, solve_ode
 
 
 ### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be), ### [PomocnáFunkceProBisekci(Nalezení Intervalu)](https://gist.github.com/CrimsonRubyRose/25e35f91e915159bb49ff3c650bf870c)
+Parametry:(**Funkce** podle této funkce se díváme na osy X/Y pro intervaly, **interval** 1 (0) , **interval** 2 (2)  )  To půlí v intervalu mezi 0,2 jestli je rozdílné znaménko tak funguje (GRAF nám pomůže najít intervaly)
+
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 
 Složitost:  O(log2​(1/ε))        Požadovaná chyba = ε	
@@ -228,6 +230,10 @@ Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme h
 ## LINEÁRNÍ INTERPOLACE (NAPŘ PRO Dif. rovnice kde je změna v čase
 
 ### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
+Parametry Hodnota: (**newt_koeficienty** -coefs z funkcy, **p**- vektor na ose X , **x_val** - Většinou velké množství bodů neboli místo/místa kde chceme výsledek)
+
+Parametry Koeficienty: (**X**- hodnoty na ose X, **Y**- hodnoty na ose Y)
+
 Výhody: Lepší než lagrange, rekuriznví. 
 
 Složitost: O(N2)  kde N = počet bodů,  (Řád polynomu je N-1)
@@ -239,16 +245,22 @@ Princip: Metoda která najde koeficienty polynomiálu který projde našimi body
 # Aproximace/ Regrese/ Nejméně čtverců
 * [Zpět na Obsah](#Obsah)
 ### [ Metoda nejmenších čtverců (MNC) ###  ](https://gist.github.com/CrimsonRubyRose/4c5827374d9b4e26cfd68141394654e0)
- 
+Parametry: (X- Interval souřadnicí které používáme(Stejná size jako Y), Y- Naše hodnoty , N- počet koeficientů Má být stupeň polynomu + 1 
 
-Výhody:
+(Stupeň polynomu = Např. chceme protnout 4 body (na grafu např. 0) takže 4+1 stupeň 5) Popř. ax**y = y+1 stupeň nejvyšší mocniny.  POČET VÝSTUPŮ = POČET KOEFICIENTŮ N  !!!!!!  Koeficienty : Konstanta-1, přímka/lineární - 2 , parabola - 3, kubická parabola - 4
+
+Výhody: Využitý pro aproximování. Méně přesný než interpolace, ale rychlejší
+
 Složitost: O(N2⋅M), kde N je počet koeficientů a M je počet bodů.
 
-Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body zadané vektory x→ , y→ .
+Princip: Spočte koeficienty aproximačního polynomu stupně n − 1 pro body zadané vektory x→ , y→. Aproximujte.
+
+
 
 # Integrace
 * [Zpět na Obsah](#Obsah)
 ### [TrapezoidalRule](https://gist.github.com/CrimsonRubyRose/01b896c71e61f81f0c6c8e4002a18a1c) , [TrapezoidalDiskrétní](https://gist.github.com/CrimsonRubyRose/b73434be120211574b8cf4990aeea030) Specificky pro diskrétní výstup RK4
+Parametry: (Funkce, interval1 (Spodek u integrálu) ,interval2 (Vršek u integrálu), počet kroků n=100)
 
 Výhody: Jednoduchá a rychlá na implementaci, i když jen O(h**2).
 
@@ -294,6 +306,8 @@ Princip:
 * [Zpět na Obsah](#Obsah)
 
 ### EulerMethod [Dopředu](https://gist.github.com/CrimsonRubyRose/7ecdf48a63b37498bceaa531ba569371), [Oběstrany](https://gist.github.com/CrimsonRubyRose/f36d5167514d63d681bcb3e2bd26b332), [Dozadu](https://gist.github.com/CrimsonRubyRose/da470d40dd90ae52bcffcd526386eec6)
+Parametry: (Euler2 Oběstrany) (**t**- čas, **N**- startovní bod/hodnota, **h** - velikost kroku např 0.001, **funkce** - PRAVA STRANA ROVNICE (vzorec zná základní dy/dt = f(t,y)   a tam dáme jen to f(t,y) )
+
 Výhody: Nejjednodušší na implementaci. (Ale nepřesný)
 
 Složitost:
