@@ -58,7 +58,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-07-03Clean.png)
 
 ## [Příklad14:25-12-22 RK4, GausovaEliminaceSPivotaci, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/d88c423da119c6f7a1a94e508d169e69)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-12-22Clean.png))
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM25-12-22Clean.png))
 
 ## [Příklad15 26-01-23 Bisection, FindInitialInterval](https://gist.github.com/CrimsonRubyRose/fdb9f3121e874aabbe06906653e87734)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-26-01-23Clean.png)
