@@ -34,7 +34,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-03-22Clean.png)
 
 ## [Příklad7 24-04-14 RK4](https://gist.github.com/CrimsonRubyRose/7c9f90cc739ed84fb9b307035c266a6f)
-![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-04-14Clean.png)
+![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-04-14.png)
 
 ## [Příklad8 24-12-20 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-12-20Clean.png)
