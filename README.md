@@ -225,6 +225,8 @@ Princip: Vytvoříme pro každé x rovnici x=.... . Každou iterací dosadíme h
 
 # Interpolace
 * [Zpět na Obsah](#Obsah)
+## LINEÁRNÍ INTERPOLACE (NAPŘ PRO Dif. rovnice kde je změna v čase
+
 ### Newtonův interpolační polynom (Dělené diference) [koeficienty](https://gist.github.com/CrimsonRubyRose/8f1501da74fff5fb4fa46e779b7e40a5) ,    [Hodnota](https://gist.github.com/CrimsonRubyRose/900d6f11e692cc04f3194bc4d31afb64) 
 Výhody: Lepší než lagrange, rekuriznví. 
 
