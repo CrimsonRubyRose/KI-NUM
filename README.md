@@ -36,7 +36,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ## [Příklad7 24-04-14 RK4](https://gist.github.com/CrimsonRubyRose/7c9f90cc739ed84fb9b307035c266a6f)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM24-04-14.png)
 
-## [Příklad8 24-12-20 trapezoidalRule](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
+## [Příklad8 24-12-20 trapezoidalRule, Bisection , RK4](https://gist.github.com/CrimsonRubyRose/9275c0cc2944fc1a1669bb88ca0bc676)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-12-20Clean.png)
 
 ## [Příklad9 25-01-03 GaussEliminationPivoting, MNCforPolynomialsBetter, NewtonPolynomialCoefs , NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/e4d66bf1ecfc27623645d99b707262d9)
