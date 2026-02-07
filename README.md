@@ -182,7 +182,9 @@ Nové: Diskrétní trapezoidal, solve_ode
 
 
 ### [puleniIntervalu (Bisekce) (Hledání kořenů) (Zaručená)](https://gist.github.com/CrimsonRubyRose/9beb2b1fcb5b5862a0b2fbc9bd2155be), ### [PomocnáFunkceProBisekci(Nalezení Intervalu)](https://gist.github.com/CrimsonRubyRose/25e35f91e915159bb49ff3c650bf870c)
-Parametry:(**Funkce** podle této funkce se díváme na osy X/Y pro intervaly, **interval** 1 (0) , **interval** 2 (2)  )  To půlí v intervalu mezi 0,2 jestli je rozdílné znaménko tak funguje (GRAF nám pomůže najít intervaly)
+Parametry kořen:(**Funkce** podle této funkce se díváme na osy X/Y pro intervaly, **interval** 1 (0) , **interval** 2 (2)  )  To půlí v intervalu mezi 0,2 jestli je rozdílné znaménko tak funguje (GRAF nám pomůže najít intervaly)
+
+Parametry interval: **Funkce** - stejně jako u kořenu, p_start_guess = 0 , step_size = 0.2   Bude testovat hodnoty od 0 nahoru
 
 Výhody : Vždy konverguje. Ideální, když potřebujete zaručený výsledek, i když pomalý.
 
