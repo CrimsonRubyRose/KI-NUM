@@ -1,7 +1,7 @@
 # KI-NUM
 Repozitář vytvořený pro zvládnutí KI/NUM
 
-
+ Nejnovější zápočet : https://gist.github.com/CrimsonRubyRose/e1636a5ba22f8586c7bfed3d73783c5c
 # Obsah
 * [Řešení Nelineárních Rovnic](#Řešení-Nelineárních-Rovnic)
 * [Řešení Soustav Lineárních Rovnic](#Řešení-Soustav-Lineárních-Rovnic)
