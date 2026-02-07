@@ -216,7 +216,11 @@ Složitost: O(N3)    N = Počet neznámých
 
 Princip: Aproximace tečnou. Začnete v bodě x. Zde se vypočítá tečna k funkci f(x) a jejím průsečíkem s osou x se dostanete k novému, přesnějšímu odhadu kořene. Pro polynomy je to efektivní díky Hornerovu schématu, které počítá f(x) i f′(x) najednou.
 ### [GaussSeidel](https://gist.github.com/CrimsonRubyRose/6d206b26a6f23a4668de373c04a94e2c) , Nepotřebuje pomocnou matici
+Parametry: Mřížka matice  
 
+**POZNÁMKA**: Tuto funkci mám přesně definovanou na 1 úlohu Kde bylo potřeba plnit matici hodnotama podle ostatních hodnot v matici. Zatím co první řádek už byl předem nastavený a od něho šly všechny ostatní.  Vrátí plnou matici hodnot.
+
+Výhoda: Nepotřebuje pomocnou matici,  Pokud máme mřížku 50x50 a na každou hodnotu je potřeba výpočet je velikost jen 50x50. Zatímco u gausse je to cca 2500x2500 (neboli 50*50 * 50*50)
 ### [Jacobi (vektorizovaná)](https://gist.github.com/CrimsonRubyRose/af176eb6891e9f7fa6cafb7f7be9fd8e) , Potřebná pomocná matice
 
 Výhody: Rychlá pro velké, řídké matice (přes 90% nul). Použijte, když je A diagonálně dominantní.
