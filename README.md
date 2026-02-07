@@ -27,7 +27,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ## [Příklad4 24-02-16 Bisection,FindInitialInterval,  trapezoidalRule + (sapply pro graf funkce)](https://gist.github.com/CrimsonRubyRose/cb4f47ed0028f5c39ceeb85f2035c8eb)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-16Clean.png)
 
-## [Příklad5 24-02-18 GausovaEliminaceSPivotaci, NewtonPolynomialCoefs, NewtonPolynomialValues, trapezoidalRule](https://gist.github.com/CrimsonRubyRose/a34e12381d9e95d9d4ccade490021c3a)
+## [Příklad5 24-02-18 GausovaEliminaceSPivotaci, NewtonPolynomialCoefs, NewtonPolynomialValues, trapezoidalRule + outer pro hodnoty matice i,j](https://gist.github.com/CrimsonRubyRose/a34e12381d9e95d9d4ccade490021c3a)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-24-02-18Clean.png)
 
 ## [Příklad6 24-03-22 GaussSeidelMrizka](https://gist.github.com/CrimsonRubyRose/10cf9411b5dcc264e8c5b2116b8fe0c4)
