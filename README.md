@@ -210,7 +210,7 @@ Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesn�
 * [Zpět na Obsah](#Obsah)
 ### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
 Parametry: **A**-Matice plná hodnot podle funkce ze zadání/zadání,**B**- Pomocný vektor/"pomocná matice",**N**-Velikost matice (např. 10) 
-**Poznámka**: Často je použitá outer pro definici A    neboli A <- outer(1:N,1:N, funkce(x,..,z) -definice funkce- ) což vytvoří matici 1:N kde hodnoty uvnitř jsou podle zadané funkce kde i,j jsou pozice v matici. Neboli outer funguje jen na funkci 2 parametrů kde oba jsou i,j kde i = 1:N  jako řádek,  a j = 1:N jako sloupec) Neboli 1. je řádek a 2. je sloupec jako parametr. 
+**Poznámka**: Často je použitá outer pro definici A    neboli A <- outer(1:N,1:N, funkce(x,..,z) -definice funkce- ) což vytvoří matici 1:N kde hodnoty uvnitř jsou podle zadané funkce kde i,j jsou pozice v matici. Neboli outer funguje jen na funkci 2 parametrů kde oba jsou i,j kde i = 1:N  jako řádek,  a j = 1:N jako sloupec) Neboli 1. je řádek a 2. je sloupec jako parametr. **TAKÉ outer potřebuje vektorizovanou funkci např. jestli potřebujeme trapezoidal tak uděláme jinou funkci která používá trapezoidal na výstup té spočítej i,j ALE poté musíme udělat f<-vectorize(spočítej(i,j)) a použít f**
 
 Složitost: O(N3)    N = Počet neznámých
 
