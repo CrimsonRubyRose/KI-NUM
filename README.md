@@ -316,6 +316,9 @@ Princip:
 
 
 ### [RK4](https://gist.github.com/CrimsonRubyRose/0aaf8f6090fac076239a9c8c307657f5)
+**POTŘEBUJE FUNKCI NA PRAVÉ STRANĚ Dx/Dt = F(x) jestli je -Dx/Dt stačí rovnice*-1 **
+Parametry: **t**- start čas (0), **N**- vektor start hodnot c(x,..,z), **dt**- velikost kroku,**Funkce**- Dif. Rovnice s parametry (t, vektor c(x,..,z) ) a poté definice funkce pro dx,..,dz (přepis)
+
 Výhody: Nejpřesnější a standardní (O(h**4)). Vyžaduje nejméně kroků h. Ale extrémně pomalá.   Pro interval v zadání potřebuje solve_ode
 
 Složitost:
