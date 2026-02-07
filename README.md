@@ -42,7 +42,7 @@ Repozitář vytvořený pro zvládnutí KI/NUM
 ## [Příklad9 25-01-03 GaussEliminationPivoting, MNCforPolynomialsBetter, NewtonPolynomialCoefs , NewtonPolynomialValues](https://gist.github.com/CrimsonRubyRose/e4d66bf1ecfc27623645d99b707262d9)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-01-03Clean.png)
 
-## [Příklad10 25-01-24 trapezoidalRule, GausovaEliminaceSPivotaci](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
+## [Příklad10 25-01-24 (Místo outer 2 for cykly pro matici) trapezoidalRule, GausovaEliminaceSPivotaci](https://gist.github.com/CrimsonRubyRose/bcdd8732c3385f4e52fca7d5a3c656a2)
 ![Alternativní Text Obrázku](/Obrázky/ZápočetNUM-25-01-24Clean.png)
 
 ## [Příklad11 25-01-31 Bisection, GaussEliminationPivoting, MNCforPolynomialsBetter](https://gist.github.com/CrimsonRubyRose/b0c757435af1b82e5c2d8df84a175a73)
@@ -209,8 +209,8 @@ Epsilon (ε) určuje kdy se algoritmus zastaví. Např u 0.01 (Menší = přesn�
 # Řešení Soustav Lineárních Rovnic
 * [Zpět na Obsah](#Obsah)
 ### [GaussEliminationPivotingZobrazit Kód](https://gist.github.com/CrimsonRubyRose/dffc325d9d48a38eed4d3f42c4e1d1d5)
-
-Výhody: Nejuniverzálnější a stabilní řešič. Přesné řešení.
+Parametry: **A**-Matice plná hodnot podle funkce ze zadání/zadání,**B**- Pomocný vektor/"pomocná matice",**N**-Velikost matice (např. 10) 
+**Poznámka**: Často je použitá outer pro definici A    neboli A <- outer(1:N,1:N, funkce(x,..,z) -definice funkce- ) což vytvoří matici 1:N kde hodnoty uvnitř jsou podle zadané funkce kde i,j jsou pozice v matici. Neboli outer funguje jen na funkci 2 parametrů kde oba jsou i,j kde i = 1:N  jako řádek,  a j = 1:N jako sloupec) Neboli 1. je řádek a 2. je sloupec jako parametr. 
 
 Složitost: O(N3)    N = Počet neznámých
 
